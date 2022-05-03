@@ -1,6 +1,7 @@
 # Assignment: ASSIGNMENT 5.1
 # Name: Basak, Atanu
 # Date: 2022-04-13
+install.packages('pander')
 
 install.packages("readxl")
 library("readxl")

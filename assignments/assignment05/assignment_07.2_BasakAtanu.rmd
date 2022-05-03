@@ -15,6 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # i) Use R to calculate the covariance of the Survey variables and provide an explanation of why you would use this calculation and what the results indicate.
 ```{r, echo=FALSE}
+
 setwd("C:\\Users\\atanu\\Documents\\BellevueUniversity_MSDS\\DSC520\\Repository\\dsc520")
 survey <- read.csv("assignments\\assignment05\\student-survey.csv")
 knitr::kable(survey,

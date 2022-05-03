@@ -9,9 +9,6 @@ theme_set(theme_minimal())
 ## Set the working directory to the root of your DSC 520 directory
 setwd("C:\\Users\\atanu\\Documents\\BellevueUniversity_MSDS\\DSC520\\Repository\\dsc520")
 
-ggplot(data, aes(x=variable, y=value)) +
-  geom_boxplot(aes(fill=group)) +
-  geom_point(position=position_dodge(width=0.75),aes(group=group))
 
 
 ## Load the `data/r4ds/heights.csv` to
