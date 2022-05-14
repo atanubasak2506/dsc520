@@ -104,3 +104,13 @@ car::vif(sale_price_multiple)
 ```
 ### as per the VIF values its not close to 10 so there are not high so there is no multicolinearity in the model.
 
+# Visually check the assumptions related to the residuals using the plot() and hist() functions. Summarize what each graph is informing you of and if any anomalies are present.
+
+```{r}
+par(mfrow = c(2, 2))
+plot(sale_price_multiple)
+```
+### as residual-fitted is liner so we can say linearity holds prety good.
+### Normal Q-Q plot is used to determine if residuals are normally distributed.
+### scale-location plot is not hoizontal so there is some non-linearity found.
+
